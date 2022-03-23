@@ -14,7 +14,7 @@ data aws_caller_identity current {}
 //  required_version = "~> 1.0.5"
 //  backend "s3" {
 //    # ToDo : [VERY important] 경로 정확히 할것!! -> 경로가 겹칠시 .tfstate 덮어쓰기 된다.
-//    key = "onesell-terraform-example/dev1/terraform.tfstate"
+//    key = "terraform-example/dev/terraform.tfstate"
 //  }
 //}
 
