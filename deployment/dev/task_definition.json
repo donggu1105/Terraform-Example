@@ -1,0 +1,79 @@
+//[
+// {
+//   "name": "${name}",
+//   "image": "${image}",
+//   "essential": true,
+//   "portMappings": [
+//        {
+//          "containerPort" : 8000,
+//          "hostPort"      : 8000
+//        }
+//      ],
+//   "environment": [
+//            {
+//                "name": "MONGO_ADDRESS",
+//                "value": "${MONGO_ADDRESS}"
+//            },
+//            {
+//                "name": "MONGO_PORT",
+//                "value": "${MONGO_PORT}"
+//            },
+//            {
+//                "name": "MONGO_DB_INSTANCE",
+//                "value": "${MONGO_DB_INSTANCE}"
+//            },
+//          {
+//                "name": "MONGO_USERNAME",
+//                "value": "${MONGO_USERNAME}"
+//            },            {
+//                "name": "MONGO_PASSWORD",
+//                "value": "${MONGO_PASSWORD}"
+//            },            {
+//                "name": "MONGO_AUTH_SOURCE",
+//                "value": "${MONGO_AUTH_SOURCE}"
+//            },            {
+//                "name": "MONGO_AUTH_MECHANISM",
+//                "value": "${MONGO_AUTH_MECHANISM}"
+//            },            {
+//                "name": "LOG_STAGE",
+//                "value": "${LOG_STAGE}"
+//            },            {
+//                "name": "APPLICATION_NAME",
+//                "value": "${APPLICATION_NAME}"
+//            },            {
+//                "name": "FLASK_API_URL",
+//                "value": "${FLASK_API_URL}"
+//            },            {
+//                "name": "COLLECT_SAVE_API_URL",
+//                "value": "${COLLECT_SAVE_API_URL}"
+//            },            {
+//                "name": "WORKER_API_URL",
+//                "value": "${WORKER_API_URL}"
+//          },            {
+//                "name": "SQS_JOB_MANAGER_URL",
+//                "value": "${SQS_JOB_MANAGER_URL}"
+//          },            {
+//                "name": "SQS_PRODUCT_URL",
+//                "value": "${SQS_PRODUCT_URL}"
+//          },            {
+//                "name": "SQS_ORDER_URL",
+//                "value": "${SQS_ORDER_URL}"
+//          },            {
+//                "name": "SQS_JOB_CLOSE_MANAGER_URL",
+//                "value": "${SQS_JOB_CLOSE_MANAGER_URL}"
+//          },            {
+//                "name": "SQS_STOCK_SYNC_URL",
+//                "value": "${SQS_STOCK_SYNC_URL}"
+//          }
+//        ],
+//
+//   "logConfiguration": {
+//      "logDriver": "awslogs",
+//      "options": {
+//        "awslogs-group": "${awslogs-group}",
+//        "awslogs-region": "${awslogs-region}",
+//        "awslogs-stream-prefix": "${awslogs-stream-prefix}"
+//      }
+//    }
+// }
+//]
