@@ -1,0 +1,7 @@
+mongo_address=""
+mongo_auth_mechanism=""
+mongo_auth_source=""
+mongo_db_instance=""
+mongo_password=""
+mongo_port=""
+mongo_username=""
